@@ -1,0 +1,90 @@
+header{
+    font-size: larger;
+}
+main{
+    justify-content: center;
+    color: rgb(56, 63, 18);
+}
+h1{
+    color: rgb(57, 183, 26);
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+    text-indent: 10px;
+    line-height: 20px;
+}
+hr{
+    width: 30%;
+    margin-left: 0;
+    border-top: 3px solid rgb(57, 183, 26);
+}
+span{
+    font-weight: bold;
+}
+img{
+    float: left;
+    height: 150px;
+}
+table{
+    width: 100%;
+    margin-bottom: 30px;
+    border-spacing: 10px ;
+}
+table, td, th{
+    border: solid rgb(57, 183, 26) 1px;
+}
+th{
+    font-size: larger;
+}
+th, tr{
+    height: 50px;
+}
+td{
+    width: 50%;
+}
+th, td{
+    padding: 5px;
+}
+a{
+    color: rgb(57, 183, 26);
+}
+a:hover{
+    color: rgb(56, 63, 18);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 30px;
+    justify-content: center;
+    gap: 20px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 89%;
+}
+.item{
+    text-align: center;
+    border: solid rgb(57, 183, 26) 1px;
+    box-shadow: 1px 1px rgb(57, 183, 26);
+    background-color: rgb(227, 237, 220);
+    border-radius: 5px;
+}
+.item:hover{
+    background-color: rgb(153, 170, 149);
+    transition: 1s;
+}
+.back{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    border: solid rgb(57, 183, 26) 1px;
+    box-shadow: 1px 1px rgb(57, 183, 26);
+    background-color: rgb(227, 237, 220);
+    border-radius: 5px;
+}
+.back:hover{
+    transition: 1s;
+    background-color: rgb(153, 170, 149);
+}
